@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+    <button class="btn">클릭</button>
+    <a href="#self">클릭클릭클릭</a>
+
+
+</body>
+<script>
+    $(function(){
+            $('.btn').click(function(){
+                $('#test').css({
+                    color : 'red',
+                    fontSize : '18px',
+                    border : '1px solid red'
+                });
+        })
+    });
+    // 자료형 
+        // 문자열 : 따옴표로 감싼 것 "문자열1", '문자열2' 
+        // 숫자 : 11,  12.1, 13.22  ( 이거슨 문자열 : "12", '11' ) 
+        // 배열
+        // 객체 : { }
+    // 함수 
+        // 형식 : funtion 이름( 파라미터 또는 인수  ){  ...실행될 코드   }
+        // 호출(Call) : 이름(파라미터 또는 인수); 
+</script>
+</html>
+
+

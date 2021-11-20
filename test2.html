@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis corporis nobis maiores facilis nihil id quia, sed reprehenderit ipsa ab quas illum dolorem eaque ratione eum nisi. Quo, harum soluta!
+    </div>
+
+    <div class="box2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam repellendus soluta repellat, quibusdam, non distinctio provident numquam ullam sunt ratione labore nihil reiciendis delectus eligendi ipsa aliquam laudantium! Aperiam, a.
+    </div>
+</body>
+</html>
+<style>
+    body { padding: 50px;}
+    /* 한줄 말줄임표 처리*/
+    .box { 
+        outline: 1px solid red;
+        width: 300px; 
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 30px;
+    }
+
+    /*두 줄 이상 말줄임표 */
+    .box2 { 
+        outline: 1px solid blue;
+        width: 300px; 
+        height: 60px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+
+</style>

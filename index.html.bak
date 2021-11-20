@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>계명대학교</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/response.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>    
+    <script src="/js/main.js"></script>			
+</head>
+<body>
+    <header>
+        <div class="header_top">
+            <div class="top_wrap clearfix">
+                <div class="top_lang">
+                    <a href="">Languag</a>
+                    <ul>
+                        <li><a href="">Enlish</a></li>
+                        <li><a href="">중국어</a></li>
+                    </ul>
+                </div>
+                <ul>    
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">EDWARD포털</a></li>
+                    <li><a href="">Google</a></li>
+                    <li><a href="">사이트맵</a></li>
+                    <li><a href="">코로나19(COVID-19)</a></li>
+                    <li><a href="">계명소식</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div>
+                <div class="mobie_menu">
+                    <a href="">모바일 메뉴</a>
+                </div>
+                <h1 class="logo"><a href=""><img src="img/header/header_logo.png" alt=""></a></h1>
+                <ul class="gnb">                    
+                    <li>
+                        <a href="">학교소개</a>
+                        <div class="snb">
+                            학교소개
+                            <button class="closeBtn">메뉴닫기</button>
+                        </div>
+                    </li>
+                    <li><a href="">대학/대학원</a>
+                        <div class="snb">대학/대학원
+                            <button class="closeBtn">메뉴닫기</button>
+                        </div>
+                    </li>
+                    <li><a href="">대학생활</a>
+                        <div class="snb">대학생활
+                            <button class="closeBtn">메뉴닫기</button>
+                        </div>
+                    </li>
+                    <li><a href="">열린마당</a></li>
+                    <li><a href="">연구/산학</a></li>
+                    <li><a href="">입학안내</a></li>
+                    <li><a href="">취업정보</a></li>
+                </ul>
+                <div class="search_area">
+                    <a href="">통합검색</a>
+                    <div>
+                        <article>
+                            <ul>
+                                <li class="first">Search</li>
+                                <li class="second">
+                                    <input type="search" placeholder="검색어를 입력하세요">
+                                    <a href=""><span class="hidden">검색</span></a>
+                                </li>
+                                <li class="last"><a href="">닫기</a></li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="contents">
+        
+<!-- 비주얼 -->
+        <div class="visual_wrap">    
+            <div class="visual"> <!--기준-->
+                <div><img src="img/visual/visual_bg.jpg" alt=""></div>
+                <div><img src="img/visual/visual_bg2.jpg" alt=""></div>
+                <div><img src="img/visual/visual_bg3.jpg" alt=""></div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>

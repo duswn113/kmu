@@ -1,0 +1,37 @@
+.table_wrap { 
+    max-width: 823px; margin: 0 auto; 
+}
+.table_test {
+    border-collapse: separate; 
+    width: 100%;
+    text-align: center;
+    border-spacing: 0 10px;
+}
+.table_test tr th,
+.table_test tr td{ padding: 10px 0;}
+.table_test thead th{background: #d7dafb;}
+
+.table_test thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+.table_test thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+
+.table_test tr:nth-child(2n+1) td{
+    background: #ddddde;
+}
+.table_test tr:nth-child(2n) td{
+    background: #edd7df;
+}
+
+.table_test tbody tr:last-child td:first-child{
+    border-radius: 0 0 0 10px;
+}
+.table_test tbody tr:last-child td:last-child {
+    border-radius: 0 0 10px 0;
+}
+
+
+

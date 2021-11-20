@@ -1,0 +1,9 @@
+@media screen and (max-width:1023px) {
+    .top_wrap, .gnb { display: none;}
+    header .header_bottom > div { text-align: center; position: relative;}
+
+    .mobie_menu { display: block; position:absolute; top:50%; transform:translateY(-50%); left:15px; }
+    .mobie_menu > a {text-indent:-9999px; width:41px; height:33px; background: url(/img/header/M_navi.gif) no-repeat;} 
+    .search_area {float: right; margin-right: 15px; height: 50px; }
+    .search_area > a { height: 50px; background-position: 0 center;}
+}

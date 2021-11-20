@@ -1,0 +1,6 @@
+.hidden {
+    position: absolute;
+    top: -9999px;
+    font-size: 0;
+    line-height: 0;
+}
